@@ -27,7 +27,7 @@ public class Swerve extends SubsystemBase {
 //Partes publicas del swerve 
   public Swerve() {
     gyro = new AHRS();
-
+//Creacion de constantes de la conexion de los modulos 
     modules = new SwerveModule[] {
       new SwerveModule(0, Constants.kSwerve.MOD_0_Constants),
       new SwerveModule(1, Constants.kSwerve.MOD_1_Constants),
