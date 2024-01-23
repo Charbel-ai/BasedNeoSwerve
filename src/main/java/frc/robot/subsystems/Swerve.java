@@ -20,11 +20,11 @@ import frc.robot.utils.SwerveModule;
 public class Swerve extends SubsystemBase {
   //Variable de los modulos del robot 
   private final SwerveModule[] modules;
-//Variable de 
+//Variable de la variable de odometria 
   private final SwerveDriveOdometry swerveOdometry;
-
+//Creacion del sensor gyro para saber la posicion del robot 
   private final AHRS gyro;
-
+//Partes publicas del swerve 
   public Swerve() {
     gyro = new AHRS();
 
