@@ -16,10 +16,11 @@ import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 import frc.robot.Constants;
 import frc.robot.utils.SwerveModule;
-
+//Creacion de un subsistema - el swerve 
 public class Swerve extends SubsystemBase {
+  //Variable de los modulos del robot 
   private final SwerveModule[] modules;
-
+//Variable de 
   private final SwerveDriveOdometry swerveOdometry;
 
   private final AHRS gyro;
